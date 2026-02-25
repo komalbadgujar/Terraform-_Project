@@ -14,9 +14,9 @@ resource "aws-subnet" "public1" {
     map_public_ip_on_launch = true
 }
 
-resource "aws-subnet" "public1" {
+resource "aws-subnet" "public2" {
     vpc_id =aws_vpc_main.vpc_id
-    cidr_block = "10.0.1.0/24"
+    cidr_block = "10.0.2.0/24"
     availability_zone = "ap-south-1b"
     map_public_ip_on_launch = true
 }
